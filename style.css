@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+@media (max-width: 420px) {
+  header {
+    width: 100%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .tTitle {
+    text-align: center;
+    padding: 20px 57px;
+    height: 60px;
+    background: #181818;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #f9f9f9;
+  }
+
+  .bTitle {
+    height: 60px;
+    padding: 10px 116px;
+    background: #f9f9f9;
+    font-size: 22px;
+    color: #181818;
+  }
+  
+  .wTitle {
+    background-color: #000000;  
+    height: 377px;    
+    width: 420px;
+    
+  }
+
+  .wTitle img{
+    position: absolute;
+    width: 400px;
+    height: 377px;
+    opacity: 60%;
+    
+  }
+
+  .wTitle h1 {
+    position: absolute;
+    padding: 122px 35px 221px 40px;
+    text-align: center;
+    color: #f9f9f9;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 34px;
+  }
+
+  .wTitle h2 {
+    position: absolute;
+    padding: 168px 35px 121px 40px;
+    display: flex;
+    align-items: center;
+    color: #f9f9f9;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 180%;
+  }
+
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bgkTitle h1 {
+    padding: 50px 98px 7px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 196.19%;
+    display: flex;
+    text-align: center;
+  }
+
+  .bgkTitle h2 {
+    padding: 5px 20px 59px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 180%;
+    display: flex;
+    text-align: center;
+    color: #474747;
+  }
+
+  .tCard 
+  {
+    margin-bottom: 30px;
+    width: 374;
+    height: 302px;
+    background: #ebe9ea;
+    padding: 76px 51px;  
+  }
+
+  .tCard > img
+  {
+    width: 250px;
+    height: 150px;
+     
+    
+  }
+
+  footer
+  {
+    padding: 12px;
+    height: 60px;
+    background: #181818;
+  }
+
+  footer p 
+  {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 196.19%;    
+    text-align: center;
+
+    color: #f9f9f9;
+  }
+}
