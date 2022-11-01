@@ -35,17 +35,14 @@ body {
   text-align: center;
   color: #181818;
 }
-.wrapperBkg {
-  background: #181818;
-}
 
 .wrapperImg {
   padding: 129px 1440px 100px 121px;
-  background-image: url("/img/wallpaper.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.503)),
+    url("/img/wallpaper.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 377px;
-  opacity: 60%;
 }
 
 .wTitle > h1 {
@@ -74,7 +71,7 @@ body {
 }
 
 .bgkTitle h2 {
-  padding-bottom: 58px;
+  
   font-weight: 500;
   font-size: 15px;
   line-height: 180%;
@@ -85,15 +82,15 @@ body {
 
 .main {
   margin: 0 auto;
-  width: 1220px;  
+  width: 1440px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 19px;
-  padding-bottom: 100px;
+  gap: 39px;
+  padding: 100px;
 }
 
 .card {
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
   width: 300px;
   height: 302px;
   background: #d8d8d8;
@@ -167,42 +164,219 @@ footer > p {
   color: #f9f9f9;
 }
 
-
-
-
-@media (max-width: 420px) {
-
- 
-
-  .tTitle {
-    text-align: center;
-    padding: 20px 57px;
-    height: 60px;
-    background: #181818;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    color: #f9f9f9;
-  }
-
-  .bTitle {
-    height: 60px;
-    padding: 10px 116px;
-    background: #f9f9f9;
-    font-size: 22px;
-    color: #181818;
-  }
-  .wrapperBkg {
-    background: #181818;
-  }
-
+@media (max-width: 1025px) {
   .wrapperImg {
     padding: 120px 37px;
-    background-image: url("/img/wallpaper.jpeg");
+  }
+
+  .main {
+    margin: 0 auto;
+    width: 1024px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 40px;
+    
+  }
+
+  .card {
+    width: 450px;
+    height: 400px;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #d6d5d6;
+  }
+
+  .bkgGreen {    
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 377px;
-    opacity: 60%;
+    width: 350px;
+    height: 290px;
+   
+  }
+
+  .bkgPurpple {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 290px;
+  }
+  
+  .bkgWpurple {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 290px;
+  }
+  .bkgGrey {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 290px;
+  }
+  .bkgBred {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 290px;
+  }
+  .bkgOrange {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 290px;
+  }
+  .bkgWgrey {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 290px;
+  }
+  .bkgWblack {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapperImg {
+    padding: 120px 37px;
+  }
+
+  .main {
+    margin: 0 auto;
+    width: 688px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 19px;
+    padding: 80px;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #d6d5d6;
+  }
+
+  .bkgGreen {    
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+   
+  }
+  
+  .bkgPurpple {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  
+  .bkgWpurple {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgGrey {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgBred {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgOrange {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgWgrey {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgWblack {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrapperImg {
+    padding: 120px 37px;
+  }
+
+  .main {
+    margin: 0 auto;
+    width: 688px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 19px;
+    padding: 80px;
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #d6d5d6;
+  }
+
+  .bkgGreen {    
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+   
+  }
+  
+  .bkgPurpple {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  
+  .bkgWpurple {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgGrey {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgBred {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgOrange {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgWgrey {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+  .bkgWblack {
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 420px) {
+  .wrapperImg {
+    padding: 120px 37px;
   }
 
   .wrapperImg > h1 {
@@ -221,89 +395,74 @@ footer > p {
     line-height: 180%;
     color: #f9f9f9;
   }
-  
+
   .bgkTitle h1 {
-    padding-top: 50px;
+   
     font-weight: 600;
     font-size: 28px;
     line-height: 196.19%;
     text-align: center;
   }
-  
+
   .bgkTitle h2 {
-    padding-bottom: 59px;
+   
     font-weight: 500;
     font-size: 15px;
-    line-height: 180%;  
+    line-height: 180%;
     text-align: center;
     color: #474747;
   }
-  
+
   .main {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
-    padding-right: 20px;    
+    padding-right: 20px;
     padding-bottom: 50px;
-    
   }
 
-  .card { 
+  .card {
     width: 100%;
     height: 302px;
     margin-bottom: 20px;
     background: #d6d5d6;
-    
   }
 
-  .bkgGreen {
-    background-image: url("/img/1.png");
-    background-size: cover;    
-    height: 150px;
+  .bkgGreen {    
+    width:250px;
+    height: 190px;
+   
   }
-
+  
   .bkgPurpple {
-    background-image: url("/img/2.png");
-    background-size: cover;   
-    height: 150px;
+    width:250px;
+    height: 190px;
   }
-
+  
   .bkgWpurple {
-    background-image: url("/img/3.png");
-    background-size: cover;    
-    height: 150px;
+    width:250px;
+    height: 190px;
   }
   .bkgGrey {
-    background-image: url("/img/4.png");
-    background-size: cover;   
-    height: 150px;
+    width:250px;
+    height: 190px;
   }
   .bkgBred {
-    background-image: url("/img/5.png");
-    background-size: cover;    
-    height: 150px;
+    width:250px;
+    height: 190px;
   }
   .bkgOrange {
-    background-image: url("/img/6.png");
-    background-size: cover;    
-    height: 150px;
+    width:250px;
+    height: 190px;
   }
   .bkgWgrey {
-    background-image: url("/img/7.png");
-    background-size: cover;    
-    height: 150px;
+    width:250px;
+    height: 190px;
   }
   .bkgWblack {
-    background-image: url("/img/8.png");
-    background-size: cover;    
-    height: 150px;
-  }
-
-  footer {
-    padding: 12px;
-    height: 60px;
-    background: #181818;
+    width:250px;
+    height: 190px;
   }
 
   footer > p {
